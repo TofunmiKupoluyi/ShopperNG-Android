@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ShopperNG</string>
+    <string name="loginLayoutString">Login</string>
+    <string name="title_activity_category">category</string>
 </resources>
