@@ -2,4 +2,7 @@
     <string name="app_name">ShopperNG</string>
     <string name="loginLayoutString">Login</string>
     <string name="title_activity_category">category</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

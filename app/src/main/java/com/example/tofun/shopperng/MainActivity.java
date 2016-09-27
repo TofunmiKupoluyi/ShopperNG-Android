@@ -19,12 +19,8 @@ public class MainActivity extends AppCompatActivity {
             String customerID= intent.getStringExtra("customerID");
             String firstName= intent.getStringExtra("firstName");
             String lastName= intent.getStringExtra("lastName");
-            TextView text= new TextView(this);
-            text.setText(customerID+firstName+lastName);
-            ViewGroup view= (ViewGroup) findViewById(R.id.mainActivityLayout);
-            view.addView(text);
-        }
 
+        }
     }
     public void toLogin(View view){
         if(loggedIn==true){
@@ -38,5 +34,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void toCategory(View view){
         Intent intent = new Intent(this, category.class);
+        startActivity(intent);
     }
 }
